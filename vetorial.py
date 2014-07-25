@@ -31,7 +31,6 @@ while count < eventos:
     if p_envia == p_recebe:
         print "\n# TIPO: Evento Interno"
         print "# M = %s" % relogio[p_envia]
-        relogio[p_recebe][p_recebe] = relogio[p_recebe][p_recebe] + 1
         print "# R de P%s = %s\n" % (p_envia, relogio[p_envia])
     else:
         count2 = 0

@@ -28,7 +28,6 @@ while(count < eventos):
 
     if p_envia == p_recebe:
         relogio[p_envia].append(relogio[p_envia][-1] + 1)
-        relogio[p_recebe].append(relogio[p_recebe][-1] + 1)
         print "\n# TIPO: Evento Interno"
         print "# M = %s" % relogio[p_envia][-2]
         print "# R de P%s = %s\n" % (p_envia, relogio[p_envia][-1])
